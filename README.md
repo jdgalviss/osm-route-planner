@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the code for a route planner that is able to generate a route between two points from a map defined in a .osm file (Open Street Maps). The algorithm used for route planning is **A\* search**.
+This repo contains the code for a route planner that is able to generate a route between two points from Open Street Maps data. The algorithm used for route planning is **A\* search**.
 
 <img src="imgs/10_90_90_10.png" width="350" height="400" />
 
