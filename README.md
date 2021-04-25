@@ -54,8 +54,23 @@ or with SSH:
 git clone git@github.com:jdgalviss/osm-route-planner.git --recurse-submodules
 ```
 
+## Using Docker
+There is an associated `Dockerfile` that you can use to reference build instrucions (based on an image of alpine), and do routing without 2d rendering.
 
+## Building using Dockerfile
+You can use either Docker or Podman
 
+```bash
+$ docker build -t jdgalviss/osm-route-planner .
+```
+
+## Running using Dockerfile
+Either map your own osm file or use the one provided in the repo.
+```bash
+$ docker run -it jdgalviss/osm-route-planner 
+```
+
+Make sure you enable the `-it` flag so the program can read your inputs from a valid tty session and keyboard strokes.
 
 ## Compiling and Running
 
